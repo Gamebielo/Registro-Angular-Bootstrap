@@ -1,3 +1,6 @@
-# atividade-06
+# Exemplo de um Registro Simples
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/atividade-06)
+Exemplo feito como tarefa/atividade em sala e aula,
+FATEC SJC
+
+[Gamebielo ⚡️](https://github.com/Gamebielo)
