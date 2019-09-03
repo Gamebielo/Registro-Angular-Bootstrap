@@ -1,0 +1,22 @@
+<div *ngIf="servico.lista.length > 0">
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>MARCA</th>
+        <th>MODELO</th>
+        <th>VALOR</th>
+      </tr>
+    </thead>
+   <tbody>
+      <tr *ngFor="let item of servico.lista" (contextmenu)="excluir(item)">
+          <td>{{ item.marca }}</td>
+          <td>{{ item.modelo }}</td>
+          <td>{{ item.valor }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div id="copy">
+<a class="row justify-content-center mt-4" href="https://stackblitz.com/@Gamebielo">&copy; Gabriel de Brito Carvalho</a>
+</div>
